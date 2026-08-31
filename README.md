@@ -7,7 +7,7 @@ A multi-page React application built for **ForcastInsights** featuring a global 
 
 ## 🚀 Live Demo
 
-- **Live URL**: [Insert your Vercel/Netlify link here]
+- **Live URL**: [https://forcastinsights-theme-app.vercel.app/]
 - **Repository**: (https://github.com/Dev6552488/forcastinsights-theme-app)
 
 ---

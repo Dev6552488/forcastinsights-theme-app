@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from '../../components/Navbar';
 import './Home.css';
 
@@ -17,6 +18,7 @@ const Home = () => {
             <div className="hero-actions">
               <a href="#features" className="btn btn-primary">Explore Features</a>
               <a href="/insights" className="btn btn-secondary">View Insights</a>
+              <Link to="/register" className="btn btn-primary">Create Account</Link>
             </div>
           </div>
           <div className="hero-visual">

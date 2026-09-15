@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import ThemeToggle from './ThemeToggle';
 import './Navbar.css';
 
@@ -8,6 +8,7 @@ const Navbar = () => {
     { path: '/', label: 'Home' },
     { path: '/insights', label: 'Insights' },
     { path: '/about', label: 'About' },
+    { path: '/register', label: 'Register' },
   ];
 
   return (
@@ -21,13 +22,13 @@ const Navbar = () => {
         <ul className="navbar-nav">
           {navLinks.map((link) => (
             <li key={link.path} className="nav-item">
-              <Link 
-                to={link.path} 
+              <NavLink
+                to={link.path}
+                end={link.path === '/'}
                 className="nav-link"
-                aria-current="page"
               >
                 {link.label}
-              </Link>
+              </NavLink>
             </li>
           ))}
         </ul>

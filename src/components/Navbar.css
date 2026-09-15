@@ -103,3 +103,42 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 520px) {
+  .navbar-container {
+    gap: 8px;
+  }
+
+  .navbar-brand {
+    gap: 6px;
+  }
+
+  .brand-icon {
+    font-size: 22px;
+  }
+
+  .navbar-nav {
+    gap: 1px;
+  }
+
+  .nav-link {
+    padding: 6px 7px;
+    font-size: 12px;
+  }
+
+  .navbar-actions {
+    gap: 4px;
+  }
+
+  .theme-toggle {
+    padding: 6px;
+  }
+
+  .toggle-icon {
+    font-size: 14px;
+  }
+
+  .toggle-text {
+    display: none;
+  }
+}

@@ -266,8 +266,3 @@ RewriteRule . /index.html [L]
 
 This project is for educational/assignment purposes.
 
----
-
-## 👤 Author
-
-**Vishal** - [GitHub](https://github.com/Dev6552488)
